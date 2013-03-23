@@ -1,0 +1,23 @@
+{
+  "name": "puppeteer",
+  "version": "0.0.0",
+  "description": "A script for setting up and installing new Ubuntu machines with Puppet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plus3network/puppeteer.git"
+  },
+  "keywords": [
+    "puppet",
+    "devops",
+    "install",
+    "ubuntu"
+  ],
+  "author": "Chris Cowan",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "730fbe50ac90eeaf2a5f02859b258b5dd2dbe92b"
+}
