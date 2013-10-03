@@ -1,7 +1,7 @@
 {
   "name": "puppeteer",
   "version": "0.0.0",
-  "description": "A script for setting up and installing new Ubuntu machines with Puppet",
+  "description": "Command line deployment and installation for  Ubuntu machines with Puppet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/plus3network/puppeteer.git"
+  },
+  "bin": {
+    "puppeteer": "./bin/puppeteer.js"
   },
   "keywords": [
     "puppet",
@@ -19,5 +22,13 @@
   "author": "Chris Cowan",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "730fbe50ac90eeaf2a5f02859b258b5dd2dbe92b"
+  "gitHead": "730fbe50ac90eeaf2a5f02859b258b5dd2dbe92b",
+  "dependencies": {
+    "async": "~0.2.6",
+    "ssh2": "~0.1.13",
+    "commander": "~1.1.1",
+    "colors": "~0.6.0-1",
+    "progress": "~0.1.0",
+    "findit": "~0.1.2"
+  }
 }
